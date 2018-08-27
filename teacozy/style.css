@@ -1,0 +1,98 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9px;
+}
+header {
+  display: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+div {
+  display: block;
+}
+ nav span {
+   float: right;
+   display: inline-block;
+   margin-top: -25px;
+   margin-right: 10px;
+ }
+ nav span a {
+   text-decoration: underline;
+   color: seashell;
+ }
+ .mission {
+   width: 1200px;
+   text-align: center;
+   height: 100px;
+   background-color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.mission{
+  background-size: cover;
+  height: 700px;
+}
+.mission h2 h4 {
+  padding-left: 20px;
+  background-color: black;
+}
+.image {
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.column1 {
+  height: 200px;
+  width: 300px;
+  flex: 33.33;
+  padding: 5px;
+}
+.column2 {
+  height: 200px;
+  width: 300px;
+  flex: 33.33;
+  padding: 5px;
+}
+.column3 {
+  height: 200px;
+  width: 300px;
+  flex: 33.33;
+  padding: 5px;
+}
+.column4 {
+  height: 200px;
+  width: 300px;
+  flex: 33.33;
+  padding: 5px;
+}
+.column5 {
+  height: 200px;
+  width: 300px;
+  flex: 33.33;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.tea {
+  text-align: center;
+  position: relative;
+}
+ .loc {
+  height: 500px;
+  width: 1000px;
+}
+div .downtown {
+opacity: 1;
+height: 300px;
+width: 300px;
+padding-right: 40px;
+padding-top: 15px;
+padding-left: 70px;
+}
